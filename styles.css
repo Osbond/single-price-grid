@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
+.wrapper {
+    padding: 1.5em 1.5em;
+}
+.main{
+    width: 80%;
+    border-radius: .4em;
+    overflow:hidden;
+    box-shadow: 0em .5em 1em 0 hsla(204, 43%, 75%,.6)
+}
+
+.main__container{
+    font-size: .8rem;
+}
+
+.main__sectionFirst{
+    background-color: #fff;
+}
+
+.main__h31--accent {
+    color:hsl(179, 62%, 43%);
+}
+
+.main__firstSpan{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: .875rem;
+}
+
+.main__firstP{
+    color: #aeaeae;
+    line-height: 200%;
+}
+
+.main__sectionSecond{
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+}
+
+.main__h32{
+    color: #fff;
+    font-weight: 700;
+}
+
+.main__secondSpan1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.main__secondSpan2{
+    color: hsl(179, 42%, 70%);
+}
+
+.main__submit {
+    background-color: hsl(71, 80%, 58%);
+    border: none;
+    width: 100%;
+    padding: 1em 3em;
+    color: #fff;
+    border-radius: .3em;
+    outline: none;
+    font-size: .875rem;
+    font-weight: 700;
+    box-shadow: 0 .1em .3em hsl(179, 62%, 33%);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.main__secondP{
+    color: #eee;
+    padding-bottom: 1.3em;
+}
+
+.main__sectionThird{
+    background-color: hsl(179, 62%, 53%);
+    color: hsl(179, 42%, 85%);;
+}
+.main__h33{
+    color: #fff;
+    font-weight: 700;
+}
+.main__thirdP{
+    line-height: 150%;
+}
+
+@media (min-width: 1000px) {
+    body{
+        padding: 0;
+    }
+    
+    .main{
+        max-width: 50%;
+        padding: 0;
+        
+    }
+
+    .man__container{
+        width: 41%;
+        font-size: 1rem;
+        
+    }
+    .main__sectionFirst{
+        font-size: 1rem;
+        padding: 1.5em 2em 1.5em 3em;
+    }
+    
+    .main__firstP{
+        font-size: .875rem;
+    }
+    .main__flexContainer{
+        display: flex;
+    }
+
+    .main__sectionSecond{
+        padding: 1.5em 3em 1.5em;
+        flex:1;
+        font-size: .875rem;
+    }
+
+
+    .main__sectionThird{
+        padding: 1.5em 3em;
+        flex:1;
+        font-size: .875rem;
+
+    }
+    .main__thirdP{
+        font-weight: 400;
+        line-height: 190%;
+    }
+}
